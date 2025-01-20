@@ -39,7 +39,15 @@ body {
   border-radius: 12px;
   font-weight: 600;
   font-size: 1.25rem;
+  transition: 1s;
 }
+.btn-primary:hover {  
+  background: skyblue;  
+  color: white;
+  cursor: pointer;
+}
+
+
 .btn-secondary {
   font-family: "Raleway", serif;
   background: #3CD8E8;
@@ -54,6 +62,17 @@ body {
 }
 
 /* navbar related styles */
+
+marquee {
+  margin-top: 30px;
+  color: tomato;
+  font-size: 1rem;
+}
+
+marquee img {
+  width: 15px;
+}
+
 nav {
   margin: 20px 0px;
 }
@@ -95,14 +114,22 @@ nav {
   color: orange;
   font-weight: bold;
   font-size: 1.25rem;
+  transition: 1s;
+}
+
+.home:hover {
+  color: rgb(147, 98, 8);
 }
 
 .about {
   color: skyblue;
   font-weight: 500;
   font-size: 1.25rem;
-  line-height: 1.8rem;
-  
+  line-height: 1.8rem;  
+}
+.about:hover {
+  color: rgb(16, 178, 242);
+  transition: 1s;  
 }
 
 .facilities {
@@ -110,6 +137,10 @@ nav {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.8rem;
+  transition: 1s;
+}
+.facilities:hover {
+  color: #189197;
 }
 
 .admission {
@@ -117,6 +148,10 @@ nav {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.8rem;
+  transition: 1s;
+}
+.admission:hover {
+  color: #0a059d;
 }
 
 .nav-bottom-horizontal-line {
