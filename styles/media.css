@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+  nav .container {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .logo-title {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  .hamburger, .nav-bottom-horizontal-line {
+    display: block !important;
+  }
+}

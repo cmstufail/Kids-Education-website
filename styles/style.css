@@ -1,0 +1,124 @@
+/* Quickstand   google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* Raleway   google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.quicksand-fonts {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: noral;
+  font-style: normal;
+}
+
+.raleway-fonts> {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* shared styles */
+body {
+  font-family: "Quicksand", serif;
+}
+
+.btn-primary {
+  font-family: "Quicksand", serif;
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.btn-secondary {
+  font-family: "Raleway", serif;
+  background: #3CD8E8;
+  border: none;
+  padding: 14px 19px;
+  border-radius: 47px;
+  
+}
+
+.flex {
+  display: flex;
+}
+
+/* navbar related styles */
+nav {
+  margin: 20px 0px;
+}
+.logo-title {
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  align-items: center;
+}
+
+.nav-links {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links ul {
+  list-style: none;
+}
+.nav-links ul a {
+  text-decoration: none;
+  margin-right: 32px;
+}
+
+.hamburger {
+  font-size: 1.8rem;
+  display: none !important;
+  cursor: pointer;
+}
+
+.home {
+  color: orange;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.about {
+  color: skyblue;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+  
+}
+
+.facilities {
+  color: #05D4DF;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+.admission {
+  color: #5D58EF;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8rem;
+}
+
+.nav-bottom-horizontal-line {
+  display: none;
+}
