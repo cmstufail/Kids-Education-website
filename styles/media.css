@@ -18,4 +18,30 @@
   .hamburger, .nav-bottom-horizontal-line {
     display: block !important;
   }
+
+  /* banner part */
+  .banner-container {
+    flex-direction: column-reverse;
+    padding: 10px;
+    text-align: center;
+    gap: 20px
+  }
+
+  .banner-container .banner-content {
+    gap: 15px;
+  }
+
+  .banner-container .banner-title {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+  .banner-container .banner-description {
+    font-size: 1rem;
+  }
+
+  .banner-container img {
+    width: 85%;
+  }
+  
 }

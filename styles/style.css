@@ -157,3 +157,46 @@ nav {
 .nav-bottom-horizontal-line {
   display: none;
 }
+
+/* banner related styles */
+.banner-container {
+  margin-top: 3%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.banner-content {
+  max-width: 640px;  
+  flex-direction: column;
+  gap: 24px;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 3.8rem;
+}
+
+.banner-title .start-text {
+  color: orange;
+}
+
+.banner-title .end-text {
+  color: skyblue;
+}
+
+.banner-content .banner-description {
+  font-size: 1.25rem;
+}
+
+.banner-content button {
+  background: black;
+}
+
+/* .banner .banner-image {
+  border: 3px solid green;
+  max-width: 468px;
+} */
+.banner .banner-image img {
+  width: 100%;
+}
