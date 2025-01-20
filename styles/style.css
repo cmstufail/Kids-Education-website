@@ -26,8 +26,19 @@
 }
 
 /* shared styles */
+
+
 body {
   font-family: "Quicksand", serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 6%;
+  
 }
 
 .btn-primary {
@@ -53,8 +64,19 @@ body {
   background: #3CD8E8;
   border: none;
   padding: 14px 19px;
-  border-radius: 47px;
-  
+  border-radius: 47px;  
+}
+
+.text-primary {
+  color: #64C8FF;
+}
+
+.text-secondary {
+  color: #F0AA00;
+}
+
+.text-accent {
+  color: #8700FF;
 }
 
 .flex {
@@ -160,7 +182,7 @@ nav {
 
 /* banner related styles */
 .banner-container {
-  margin-top: 3%;
+  margin-top: 1%;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -193,10 +215,61 @@ nav {
   background: black;
 }
 
-/* .banner .banner-image {
-  border: 3px solid green;
-  max-width: 468px;
-} */
 .banner .banner-image img {
   width: 100%;
+}
+
+/* standard curriculam styles */
+.standard-curriculam-section {
+  padding-top: 45px;
+  width: 80%;
+  margin: 10% auto;
+  background-image: url("../assets/bg.png");
+  /* background-position: top; */
+  background-position: top;
+  
+}
+
+.standard-curriculam-section .standard-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.card {
+  flex-direction: column;
+  gap: 30px;
+  max-width: 367px;
+  border-radius: 18px;
+  padding: 50px 40px;  
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+
+.card-1 {
+  background: linear-gradient(rgba(222, 245, 255, 1), rgba(255, 255, 255, 1));
+  cursor: pointer;
+}
+
+.card-2 {
+  background: linear-gradient(rgba(255, 244, 220, 1), rgba(255, 255, 255, 1));
+  cursor: pointer;
+}
+.card-3 {
+  background: linear-gradient(rgba(242, 232, 255, 1), rgba(255, 255, 255, 1));
+  cursor: pointer;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+}
+
+.card .card-description {
+  font-family: "Raleway", serif;
+  color: #808080;
+  font-size: 0.94rem;
+}
+
+.hide {
+  visibility: hidden;
 }
