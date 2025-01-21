@@ -61,7 +61,7 @@ body {
 
 .btn-secondary {
   font-family: "Raleway", serif;
-  background: #3CD8E8;
+  background: #95B226;
   border: none;
   padding: 14px 19px;
   border-radius: 47px;  
@@ -225,7 +225,6 @@ nav {
   width: 80%;
   margin: 10% auto;
   background-image: url("../assets/bg.png");
-  /* background-position: top; */
   background-position: top;
   
 }
@@ -270,6 +269,79 @@ nav {
   font-size: 0.94rem;
 }
 
-.hide {
-  visibility: hidden;
+.arrow-container {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.arrow-sign {
+  background: orange;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+}
+.arrow-sign:hover {
+  background: #591991;
+}
+
+.arrow-sign .fa-chevron-left, .fa-chevron-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+}
+.arrow-sign .fa-chevron-left:hover, .fa-chevron-right:hover {
+  
+  color: #00b8f0;
+}
+
+/* our stories related styles */
+.our-stories-section {
+  background: linear-gradient(#FEA301, #FFFFFF), url('../assets/bg.png');
+}
+
+.stories-cards-container {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.our-stories-section .left-card-section {
+  max-width: 440px;
+  border: 2px solid tomato;
+  padding: 5px;
+}
+
+.our-stories-section .right-card-section {
+  max-width: 540px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 5px;
+}
+
+.right-card {
+  max-width: 47%;
+}
+
+.right-card img, .left-card img {
+  width: 100%;
+  border-radius: 16px 16px 0 0px;
+}
+
+.left-card-section button {
+  background: #3CD8E8;
+}
+.right-card-section .right-card:nth-child(2) button {
+  background: #5D58F0;
 }
