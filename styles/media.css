@@ -54,5 +54,25 @@
   margin-left: 10%;
   font-size: 1.8rem;
  }
-  
+
+ .stories-container {
+  grid-template-columns: 1fr;
+  padding: 10px 25px;
+ }
+
+
+ .new-left img {
+  width: 100%;
+ }
+
+ .new-right, .top, .bottom {
+  flex-direction: column;
+ }
+
+  .bottom img, .top img {
+    width: 100%;
+  }
+
 }
+
+

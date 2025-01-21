@@ -298,50 +298,94 @@ nav {
   color: white;
   font-size: 1.5rem;
 }
-.arrow-sign .fa-chevron-left:hover, .fa-chevron-right:hover {
-  
+
+.arrow-sign .fa-chevron-left:hover, .fa-chevron-right:hover {  
   color: #00b8f0;
 }
 
 /* our stories related styles */
 .our-stories-section {
-  background: linear-gradient(#FEA301, #FFFFFF), url('../assets/bg.png');
+  background: linear-gradient(0deg, rgba(254, 163, 1, .6), rgba(255, 255, 255, 0.01)), url(../assets/bg.png);
+  background-position: top;
+  padding-bottom: 80px;
 }
 
-.stories-cards-container {
-  max-width: 1440px;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+/* new our story */
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  max-width: 1160px;
+  border-radius: 1rem;
+  margin: 0 auto;
 }
 
-.our-stories-section .left-card-section {
-  max-width: 440px;
-  border: 2px solid tomato;
-  padding: 5px;
+.stories-container img {
+  border-radius: 1rem 1rem 0 0;
 }
 
-.our-stories-section .right-card-section {
-  max-width: 540px;
-  border: 2px solid red;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding: 5px;
+.new-left {
+  background: white;
+  border-radius: 1rem;
 }
 
-.right-card {
-  max-width: 47%;
-}
-
-.right-card img, .left-card img {
+.new-left img, .bottom-left img {
   width: 100%;
-  border-radius: 16px 16px 0 0px;
 }
 
-.left-card-section button {
+.new-left button {
   background: #3CD8E8;
 }
-.right-card-section .right-card:nth-child(2) button {
+
+.new-left .content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 1.5rem;
+  padding-left: 30px;
+}
+
+.stories-container .btn-secondary {
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+
+.stories-container .card-description {
+  font-weight: bold;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+
+.new-right{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+} 
+
+.top {
+  display: flex;
+  gap: 1rem;
+}
+
+.top-left, .top-right {
+  background: white;
+  border-radius: 16px;
+}
+
+.top-right button {
   background: #5D58F0;
 }
+
+.bottom {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.bottom-left, .bottom-right {
+  background: white;
+  border-radius: 16px;
+}
+
