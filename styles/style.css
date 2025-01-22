@@ -467,9 +467,9 @@ footer .nav-links ul {
 }
 
 footer .nav-links a,
-.logo-container p {
+.logo-container p, .social-links {
   color: white;
-  padding-left: 0.6rem;
+  padding-left: 0.8rem;
 }
 
 .social-links img {
