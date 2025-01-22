@@ -1,30 +1,29 @@
 @media screen and (max-width: 576px) {
+  .hide {
+    display: block;
+  }
+
   nav .container {
     padding: 10px;
     justify-content: space-between;
   }
-  .logo-title {
-    display: none;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
+  .logo-title,
+  .nav-links,
   nav .btn {
     display: none;
   }
 
-  .hamburger, .nav-bottom-horizontal-line {
+  .hamburger,
+  .nav-bottom-horizontal-line {
     display: block !important;
   }
 
-  /* banner part */
+  /* banner related styles */
   .banner-container {
     flex-direction: column-reverse;
     padding: 10px;
     text-align: center;
-    gap: 20px
+    gap: 20px;
   }
 
   .banner-container .banner-content {
@@ -44,35 +43,75 @@
     width: 85%;
   }
 
-  /* standard curriculam */
+  /* standard curriculam related styles */
   .standard-curriculam-section .standard-cards-container {
     grid-template-columns: repeat(1, 1fr);
-    gap: 12px;
-}
- .standard-curriculam-section .section-title {
-  width: max-content;
-  margin-left: 10%;
-  font-size: 1.8rem;
- }
+    gap: 15px;
+  }
 
- .stories-container {
-  grid-template-columns: 1fr;
-  padding: 10px 25px;
- }
+  .standard-curriculam-section .section-title {
+    font-size: 2.25rem;
+    margin-top: -30px;
+  }
 
+  .arrow-container {
+    display: none;
+  }
 
- .new-left img {
-  width: 100%;
- }
+  /* our stories related styles */
+  .stories-container {
+    grid-template-columns: 2fr;
+    padding: 10px 15px;
+    margin: 25px;
+  }
 
- .new-right, .top, .bottom {
-  flex-direction: column;
- }
+  .stories-container .left-part {
+    display: none;
+  }
 
-  .bottom img, .top img {
+  .stories-container .card-description {
+    font-size: 0.56rem;
+  }
+
+  .stories-container button {
+    font-size: 0.56rem;
+    padding: 8px 10px;
+  }
+
+  .stories-container .btn-secondary {
+    position: absolute;
+    top: 60%;
+    transform: translate(-50% -50%);
+  }
+
+  .stories-container .btn-primary {
+    padding: 10px 15px;
+    font-size: 20px;
+    bottom: -6%;
+  }
+
+  .left-part img {
+    width: 50%;
+  }
+
+  .bottom img,
+  .top img,
+  .bottom-left img {
     width: 100%;
   }
 
+  /* footer related styles */
+  footer {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  footer .container {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.25rem;
+  }
+  .card {
+    max-width: 400px;
+  }
 }
-
-
